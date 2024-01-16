@@ -1,0 +1,55 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Sans-Serif;
+    background: url{"wallpapersaya.jpg"};
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0, 8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px, 0px, 10px, rgba(0, 0, 0, 0, 5);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #blue;
+}
+
+.login-container input {
+    width: 90px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: blue;
+}
+
+.media (max-width: 480px) {
+    .login-container {
+        width: 80%;
+    }
+}
